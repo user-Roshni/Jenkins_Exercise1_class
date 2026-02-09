@@ -8,8 +8,9 @@ pipeline {
     } 
     stage ('Hello') {
       steps {
-        bat '"\\Windows\\System32\\cmd.exe" /c python demoex.py'
+        bat '"\\Windows\\System32\\cmd.exe" /c python Exercise1-python.py'
       }
     }
   }
 }
+
