@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('version') {
        steps {
-         bat '"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" python --version'
+         bat '"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" --version'
        }
     } 
     stage ('Hello') {
@@ -13,6 +13,7 @@ pipeline {
     }
   }
 }
+
 
 
 
